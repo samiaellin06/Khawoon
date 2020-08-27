@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style='font-family="source-sans-variable"'>
+<body bgcolor="LightGray">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Khawoon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div>
+        <ul>
+            <li><img src="logo.png" width="80" height="50"></li>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="discounts.html">Discounts</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li style="float:right"><a href="login.html">Login/Sign Up</a></li>
+
+        </ul>
+    </div>
+    <div class="sidebar">
+        <h2 style="text-align: center;color: firebrick; flex: auto ">Events</h2>
+        <div style="width: 80%;margin: auto;color: honeydew; line-height: 20px">
+
+            <ul style="background-color: aliceblue ;color:red">
+                <li>**Winter food festival at Four seasons,Dhaka**</li>
+                <li>**Fuchka festival at Dhanmondi Sayeedena community Center**</li>
+                <li>**Pitha utshab at Dhanmondi Lake**</li>
+                <li>**Burger challange at Takeout**</li>
+                <li>**Burger Festival at Uttara club**</li>
+                <li>**Igloo Ice cream mania at BICC**</li>
+            </ul>
+
+
+        </div>
+    </div>
+    <div class="content" style=" display : flex ; flex-direction: column">
+        <div>
+            <input type="text" name="" placeholder="I am Hungry for...."
+                   style="border-radius: 50px;width: 450px;height: 45px;font-size: 20px;padding-left: 20px;margin-right: 30px">
+            IN <input type="text" name="" placeholder="Area"
+                      style="border-radius: 50px; width: 200px; height: 45px;font-size: 20px;padding-left: 10px;margin-left: 20px">
+            <a href="search.html">
+                <img src="search.png" style="width: 45px;height: 40px;padding-left:10px;margin-left:10px;border:0;">
+            </a>
+        </div>
+        <div style="   width: 100% ;margin: 0;border: darkred">
+            <p style="padding: 16px 16px ; background: firebrick; color: white; font-size: 30px; text-align: center;">
+                Trending</p>
+            <img class="img-inline" src="food1.jpg" width="300px" height="160">
+            <img class="img-inline" src="food2.jpg" width="300px" height="160">
+            <img class="img-inline" src="food3.jpg" width="300px" height="160">
+            <img class="img-inline" src="food4.jpeg" width="300px" height="160">
+            <img class="img-inline" src="food5.jpg" width="300px" height="160">
+            <img class="img-inline" src="food6.png" width="300px" height="160">
+
+
+        </div>
+
+        <div style="width: 100%; border: darkred">
+            <p style="padding: 20px;background: antiquewhite;color: darkred;font-size: 30px;text-align: center;">Hot
+                Deals</p>
+            <img class="img-inline" src="food7.jpg" width="300px" height="160">
+            <img class="img-inline" src="food8.jpg" width="300px" height="160">
+            <img class="img-inline" src="food9.jpg" width="300px" height="160">
+            <img class="img-inline" src="food10.jpg" width="300px" height="160">
+            <img class="img-inline" src="food11.jpg" width="300px" height="160">
+            <img class="img-inline" src="food12.jpg" width="300px" height="160">
+        </div>
+    </div>
+</div>
+</body>
+</html>
